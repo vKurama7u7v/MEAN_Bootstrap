@@ -1,1 +1,25 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+    width: 100%;
+    background: #4B02AF;
+    background: -webkit-linear-gradient(left, #4B02AF, #272AC9);
+    background: -moz-linear-gradient(left, #4B02AF, #272AC9);
+    background: linear-gradient(to right, #4B02AF, #272AC9);
+}
+
+.span__title {
+    font-size: 1.8rem;
+}
+
+button.btn{
+    margin-right: 7px;
+    cursor: pointer;
+}
+
+button.btn:hover{
+    opacity: 0.7;
+}
+
+.icon{
+    margin-right: 1rem;
+}
